@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="#por-trás-do-código">Sobre mim</a> &nbsp;·&nbsp;
+  <a href="#projetos-em-destaque">Projetos</a> &nbsp;·&nbsp;
   <a href="#metallica-no-navegador">Metallica no navegador</a> &nbsp;·&nbsp;
   <a href="#bancada-de-desenvolvimento">Tecnologias</a> &nbsp;·&nbsp;
   <a href="https://www.instagram.com/itzz_igor.7/">Instagram</a>
@@ -21,6 +22,20 @@ perfil = {
     "trilha_sonora": "Metallica",
 }
 ```
+
+## Projetos em destaque
+
+### EI Truck
+
+Projeto em equipe voltado à **gestão de frotas e operações de transporte**. A solução reúne um portal web em React para consulta de dados logísticos e um aplicativo Android em Kotlin para acompanhar viagens, ocorrências e indicadores de desempenho.
+
+[Portal web](https://github.com/Ei-Truck/Portal-Eitruck) · [Aplicativo Android](https://github.com/Ei-Truck/Mobile)
+
+### Astro
+
+Plataforma de **gestão de conformidade e Segurança e Saúde no Trabalho (SST)**. No front-end em React e TypeScript, contribuí com ajustes nos filtros de formulários e nos atalhos de conformidade. O sistema centraliza a gestão de colaboradores, unidades, cargos, eventos e formulários.
+
+[Repositório web](https://github.com/Astro-Inter/astro-web) · [Aplicação publicada](https://astro-inter.github.io/astro-web/)
 
 ## Metallica no navegador
 
@@ -50,5 +65,3 @@ O validador usa Python e roda no GitHub Actions. Ele bloqueia a publicação se 
 ## Bancada de desenvolvimento
 
 <img src="assets/development-rack.svg" width="100%" alt="Bancada de desenvolvimento. Linguagens: Java e Python. Web: HTML, CSS e JavaScript. Ferramentas: Git, GitHub Actions, Figma e Linux.">
-
-Além do catálogo, tenho outros projetos públicos, como o [Game Wizard](https://github.com/IgorQuinto5/Game-Wizard) e um [site para ensinar Word](https://github.com/IgorQuinto5/ensinar-word).
