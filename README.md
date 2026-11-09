@@ -27,11 +27,19 @@ perfil = {
 
 ### EI Truck
 
+<a href="https://github.com/Ei-Truck/Portal-Eitruck">
+  <img src="assets/ei-truck.svg" width="100%" alt="EI Truck. Ilustração de um caminhão para o projeto de gestão de frotas. Clique para abrir o repositório do portal.">
+</a>
+
 Projeto em equipe voltado à **gestão de frotas e operações de transporte**. A solução reúne um portal web em React para consulta de dados logísticos e um aplicativo Android em Kotlin para acompanhar viagens, ocorrências e indicadores de desempenho.
 
 [Portal web](https://github.com/Ei-Truck/Portal-Eitruck) · [Aplicativo Android](https://github.com/Ei-Truck/Mobile)
 
 ### Astro
+
+<a href="https://github.com/Astro-Inter/astro-web">
+  <img src="assets/astro.svg" width="100%" alt="Astro. Ilustração de um escudo em órbita para a plataforma de conformidade e segurança do trabalho. Clique para abrir o repositório web.">
+</a>
 
 Plataforma de **gestão de conformidade e Segurança e Saúde no Trabalho (SST)**. No front-end em React e TypeScript, contribuí com ajustes nos filtros de formulários e nos atalhos de conformidade. O sistema centraliza a gestão de colaboradores, unidades, cargos, eventos e formulários.
 
