@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="248" viewBox="0 0 1080 248" role="img" aria-labelledby="title">
+  <title id="title">Terminal de Igor Quinto</title>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .typing { animation: type-in 1.15s steps(16, end) both; }
+      .response { animation: reveal .25s ease-out both; }
+      .first { animation-delay: 1.22s; }
+      .second { animation-delay: 1.55s; }
+      .third { animation-delay: 1.88s; }
+      .cursor { animation: cursor .7s steps(1, end) 4; animation-delay: 2.15s; }
+      .meter { transform-box: fill-box; transform-origin: center bottom; animation: level .64s ease-in-out alternate 12; }
+      .offset { animation-delay: -.35s; }
+      @keyframes type-in { from { width: 0; } to { width: 390px; } }
+      @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes cursor { 50% { opacity: .25; } }
+      @keyframes level { from { transform: scaleY(.42); } to { transform: scaleY(1); } }
+    }
+  </style>
+  <defs>
+    <clipPath id="type-window"><rect class="typing" x="170" y="63" width="390" height="32"/></clipPath>
+    <linearGradient id="meter-color" x2="0" y2="1">
+      <stop stop-color="#ff8587"/>
+      <stop offset="1" stop-color="#973943"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1078" height="246" rx="16" fill="#14161b" stroke="#62525a" stroke-width="2"/>
+  <path d="M1 49h1078m-275 0v198" stroke="#62525a"/>
+  <circle cx="28" cy="25" r="5" fill="#ff8587"/>
+  <circle cx="47" cy="25" r="5" fill="#ad6268"/>
+  <circle cx="66" cy="25" r="5" fill="#62525a"/>
+  <g font-family="Consolas,monospace" font-weight="700">
+    <text x="95" y="31" fill="#dbbcae" font-size="17" letter-spacing="1">BACKSTAGE / CONSOLE</text>
+    <text x="1048" y="31" fill="#dbbcae" font-size="17" text-anchor="end">IGORQUINTO5</text>
+    <text x="34" y="87" fill="#ff8587" font-size="22">igor@dev $</text>
+    <text x="170" y="87" fill="#f3e9da" font-size="22" clip-path="url(#type-window)">backstage --init</text>
+    <g fill="#f3e9da" font-size="20">
+      <text class="response first" x="34" y="124"><tspan fill="#ff8587">[01]</tspan> Java e Python carregados</text>
+      <text class="response second" x="34" y="156"><tspan fill="#ff8587">[02]</tspan> Front-end pronto para subir</text>
+      <text class="response third" x="34" y="188"><tspan fill="#ff8587">[03]</tspan> Trilha sonora: Metallica</text>
+      <text class="response third" x="34" y="221" fill="#ff8587">$</text>
+    </g>
+    <g class="response third">
+      <rect class="cursor" x="54" y="205" width="12" height="18" rx="1" fill="#ff8587"/>
+    </g>
+    <text x="835" y="83" fill="#dbbcae" font-size="16" letter-spacing="1">AUDIO MONITOR</text>
+    <text x="835" y="219" fill="#ff8587" font-size="16" letter-spacing="1">SIGNAL / ON</text>
+  </g>
+  <path d="M836 104h207m-207 42h207m-207 42h207" stroke="#62525a" stroke-dasharray="4 5"/>
+  <g fill="url(#meter-color)">
+    <rect class="meter" x="841" y="149" width="18" height="39" rx="2"/>
+    <rect class="meter offset" x="870" y="120" width="18" height="68" rx="2"/>
+    <rect class="meter" x="899" y="135" width="18" height="53" rx="2"/>
+    <rect class="meter offset" x="928" y="102" width="18" height="86" rx="2"/>
+    <rect class="meter" x="957" y="129" width="18" height="59" rx="2"/>
+    <rect class="meter offset" x="986" y="109" width="18" height="79" rx="2"/>
+    <rect class="meter" x="1015" y="144" width="18" height="44" rx="2"/>
+  </g>
+</svg>

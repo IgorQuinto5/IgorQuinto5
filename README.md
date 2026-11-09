@@ -7,11 +7,20 @@
   <a href="https://www.instagram.com/itzz_igor.7/">Instagram</a>
 </p>
 
+<img src="assets/terminal.svg" width="100%" alt="Terminal do Igor. Compilando em Java, explorando Python e colocando projetos web no ar. Trilha sonora: Metallica.">
+
 ## Por trás do código
 
 Sou **Igor Quinto**, estudante de ADS na Germinare Tech. Java e Python são as linguagens com que tenho mais prática. Também gosto de construir interfaces e usar JavaScript para dar vida às páginas.
 
-Comecei o catálogo do Metallica juntando duas coisas que gosto: música e desenvolvimento web. Trabalhei na busca para facilitar a navegação entre as faixas e depois automatizei a publicação para que cada atualização aprovada pudesse ir direto para o ar.
+```python
+perfil = {
+    "nome": "Igor Quinto",
+    "formacao": "ADS na Germinare Tech",
+    "linguagens": ["Java", "Python", "JavaScript"],
+    "trilha_sonora": "Metallica",
+}
+```
 
 ## Metallica no navegador
 
@@ -22,6 +31,21 @@ Comecei o catálogo do Metallica juntando duas coisas que gosto: música e desen
 O catálogo reúne **146 páginas de faixas**, com busca na página inicial e players do Spotify. A cada atualização na branch principal, o GitHub Actions verifica os links internos e, se a validação passar, publica o site no GitHub Pages.
 
 **[Abrir o catálogo →](https://igorquinto5.github.io/Site-de-m-sica/)** &nbsp;·&nbsp; [Ver o código](https://github.com/IgorQuinto5/Site-de-m-sica)
+
+<details>
+<summary><strong>Dos bastidores · como o deploy funciona</strong></summary>
+
+```text
+Pull request para main ──► valida páginas e links
+Push na main ────────────► valida páginas e links
+                            └──► empacota e publica no Pages
+```
+
+O validador usa Python e roda no GitHub Actions. Ele bloqueia a publicação se faltar uma página referenciada no catálogo.
+
+[Ver o workflow](https://github.com/IgorQuinto5/Site-de-m-sica/blob/main/.github/workflows/ci-cd.yml) · [Ver as execuções](https://github.com/IgorQuinto5/Site-de-m-sica/actions)
+
+</details>
 
 ## Bancada de desenvolvimento
 
