@@ -1,34 +1,33 @@
-## Oii eu sou o Igor Quinto.
+<p align="center">
+  <img src="assets/backstage.svg" width="100%" alt="Igor Quinto. Backstage pass em estilo de pôster de metal. Web, Java e Python. Tocando Ride the Lightning, do Metallica.">
+</p>
 
-<p><b>👨‍💻 Estudante de ADS | Germinare Tech <br></b>
-<br>
-Fazendo ADS na Germinare Tech e curtindo cada passo dessa jornada! Me interesso tanto por <b>Front-end</b> quanto por <b>Back-end</b></p>
+<p align="center">
+  <a href="#01--sobre-mim">Sobre mim</a> ·
+  <a href="#02--setlist-de-projetos">Projetos</a> ·
+  <a href="#03--equipamento">Tecnologias</a> ·
+  <a href="https://www.instagram.com/itzz_igor.7/">Instagram</a>
+</p>
 
-<p>Minhas principais linguagens são <b>Python e Java</b>, mas sempre buscando algo novo.</p>
+## 01 / Sobre mim
 
-##
+Sou **Igor Quinto**, estudante de ADS na Germinare Tech. Gosto de trabalhar tanto no front-end quanto no back-end. Tenho mais prática com Java e Python e também uso HTML, CSS e JavaScript nos meus projetos web.
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Guedes-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Guedes-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Guedes-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Guedes-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Guedes-SQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg">
-  <img align="center" alt="Guedes-Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
-  <img align="center" alt="Guedes-Numpi" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg">
-  <img align="center" alt="Guedes-Pandas" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg">
-  <img align="center" alt="Guedes-Linux" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg">
-</div>
+Metallica faz parte da trilha sonora. A banda também virou tema de um dos meus projetos, um catálogo de álbuns e músicas com players do Spotify.
 
-<br>
-<br>
+## 02 / Setlist de projetos
 
-<div>
-  <img height="180mm" src="https://github-readme-stats.vercel.app/api?username=IgorQuinto5&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>  
-</div>
+| Faixa | Projeto | O que tem dentro |
+| :--- | :--- | :--- |
+| 01 | [Site de Música](https://github.com/IgorQuinto5/Site-de-m-sica) | Catálogo do Metallica com busca e páginas de faixas. A publicação no GitHub Pages é automatizada com GitHub Actions. [Abrir o catálogo](https://igorquinto5.github.io/Site-de-m-sica/) |
+| 02 | [Game Wizard](https://github.com/IgorQuinto5/Game-Wizard) | Projeto web com HTML, CSS e JavaScript. |
+| 03 | [Ensinar Word](https://github.com/IgorQuinto5/ensinar-word) | Site com material para aprender a usar o Microsoft Word. |
 
-<br>
+## 03 / Equipamento
 
-<div> 
-  <a href="https://www.instagram.com/itzz_igor.7/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-</div>
+- **Linguagens e web** · Java, Python, JavaScript, HTML e CSS
+- **Ferramentas** · Git, GitHub Actions, Figma e Linux
+
+---
+
+<sub>♫ Em destaque no banner · Ride the Lightning — Metallica</sub>

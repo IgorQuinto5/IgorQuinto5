@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="384" viewBox="0 0 1080 384" role="img" aria-labelledby="title desc">
+  <title id="title">Igor Quinto · Backstage Pass</title>
+  <desc id="desc">Cartaz em preto, vermelho e creme com um raio sobre um vinil. Desenvolvimento web, Java e Python.</desc>
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#16181c"/>
+      <stop offset="1" stop-color="#0b0c0f"/>
+    </linearGradient>
+    <radialGradient id="vinyl" cx=".4" cy=".35" r=".66">
+      <stop stop-color="#303038"/>
+      <stop offset=".8" stop-color="#18191d"/>
+      <stop offset="1" stop-color="#101115"/>
+    </radialGradient>
+    <pattern id="lines" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 1h5" stroke="#f2e9da" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1078" height="382" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1080" height="384" fill="url(#paper)"/>
+    <path d="M811 0h269v384H644z" fill="#521921"/>
+    <path d="M855 0h225v384H691z" fill="#7c222b"/>
+    <path d="M974 0h106v384H810z" fill="#a42d37"/>
+    <rect width="1080" height="384" fill="url(#lines)"/>
+    <path d="M34 75H1046M34 317H1046" stroke="#c5ab99" stroke-opacity=".36"/>
+    <circle cx="854" cy="192" r="140" fill="url(#vinyl)" stroke="#d7bca3" stroke-width="2"/>
+    <g fill="none" stroke="#64616a" stroke-width="1">
+      <circle cx="854" cy="192" r="131"/>
+      <circle cx="854" cy="192" r="124"/>
+      <circle cx="854" cy="192" r="114"/>
+      <circle cx="854" cy="192" r="103"/>
+      <circle cx="854" cy="192" r="94"/>
+      <circle cx="854" cy="192" r="82"/>
+      <circle cx="854" cy="192" r="73"/>
+    </g>
+    <circle cx="854" cy="192" r="57" fill="#a62f39" stroke="#ed7376"/>
+    <path d="M863 108l-49 87h39l-23 76 70-104h-43l24-59z" fill="#f2e9da" stroke="#0c0d10" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M1018 117v62m8-68v39m8-45v19M686 226v29m8-13v33" stroke="#f2e9da" stroke-opacity=".55" stroke-width="2"/>
+    <g font-family="'DejaVu Sans Mono',Consolas,monospace" font-weight="700" letter-spacing="2.6">
+      <text x="46" y="51" fill="#ff7377" font-size="21">BACKSTAGE PASS</text>
+      <text x="1034" y="51" fill="#f2e9da" font-size="17" text-anchor="end">VOL. 01 / DEV</text>
+      <text x="49" y="118" fill="#e9b8a7" font-size="17">@IGORQUINTO5</text>
+      <text x="49" y="259" fill="#f2e9da" font-size="23">WEB / JAVA / PYTHON</text>
+      <text x="49" y="352" fill="#ff7377" font-size="17">NOW PLAYING</text>
+      <text x="208" y="352" fill="#f2e9da" font-size="17">RIDE THE LIGHTNING</text>
+      <text x="1034" y="352" fill="#f2e9da" font-size="17" text-anchor="end">METALLICA / 1984</text>
+    </g>
+    <text x="43" y="213" fill="#f2e9da" font-family="'Arial Black',Arial,sans-serif" font-size="85" font-weight="900" letter-spacing="-2">IGOR QUINTO</text>
+    <path d="M49 229h620l-16 5H49z" fill="#e94b52"/>
+  </g>
+  <rect x="1" y="1" width="1078" height="382" rx="16" fill="none" stroke="#595057" stroke-width="2"/>
+</svg>
